@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb0dd9b6-106b-4a0d-972a-2d6bb063e3bb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/CurrencyLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/OutlookValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageChangePIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageExistingUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageFAQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageForgottenPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageLogout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageMore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PageTermsandConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Trash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ChangePIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_FAQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_Login_ExistingCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ProductFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TransactionHistory_Activities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_ChangePIN.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_EditProfile.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_FAQ.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_ForgotPassword.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_Login_ExistingCustomer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_Logout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_ProductFeature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_TermsandConditions.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_TransactionHistory_Activities.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Tg2259.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Click.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Swipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Swipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Verify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/iOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/iOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Keywords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Keywords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/AndroidManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/AndroidManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/IOSManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/IOSManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xpath/Matching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xpath/Matching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageActivities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageCardTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageCardTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageCardTransferReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageCardTransferReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageCardTransferSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageCardTransferSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageChangePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionSuccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageManageRecipient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageManageRecipient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageOTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageOTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageVerificationLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageVerificationLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistrationReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistrationReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageWelcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageWelcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/projectconstants/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/projectconstants/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/GetgoTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/GetgoTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ChangePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ManageRecipient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ManageRecipient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/research/testCase1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/research/testCase1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/Data-Input.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/Data-Input.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Getgo_CardTransfer_Peso.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_CardTransfer_Peso.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Getgo_CardTransfer_Virtual.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_CardTransfer_Virtual.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Getgo_ChangePassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_ChangePassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Getgo_CurrencyConversion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_CurrencyConversion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Getgo_ManageRecipient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Getgo_ManageRecipient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/object-repository/Locators-Android.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/object-repository/Locators-Android.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/object-repository/Locators-iOS.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/object-repository/Locators-iOS.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/settings/ProjectSettings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/settings/ProjectSettings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/settings/RunCount.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/settings/RunCount.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Click.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Click.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Get.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Get.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Keyboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Screenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Screenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Swipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Swipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Verify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Verify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/Wait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/iOS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actions/iOS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/Keywords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Keywords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/RunManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/RunManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/Keys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/Keys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/OS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/OS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/ObjectClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/ObjectClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/AndroidManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/AndroidManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverManagerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverManagerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/IOSManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/IOSManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/ApplicationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exceptions/ApplicationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/EnvironmentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exceptions/EnvironmentException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/PropertyReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/PropertyReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Tools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xpath/Contains.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xpath/Contains.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xpath/Matching.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xpath/Matching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xpath/XPathManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xpath/XPathManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-output/Automation-Summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-output/Automation-Summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/Data-Input.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/Data-Input.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Getgo_CardTransfer_Peso.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Getgo_CardTransfer_Peso.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Getgo_CardTransfer_Virtual.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Getgo_CardTransfer_Virtual.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Getgo_CurrencyConversion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Getgo_CurrencyConversion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Getgo_ManageRecipient.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Getgo_ManageRecipient.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/keywords/GetgoKeywords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/keywords/GetgoKeywords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/object-repository/Locators-Android.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/object-repository/Locators-Android.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/object-repository/Locators-iOS.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/object-repository/Locators-iOS.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageAccountDashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageAccountDashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageActivities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageActivities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageCardTransfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageCardTransfer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageCardTransferReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageCardTransferReview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageCardTransferSuccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageCardTransferSuccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageCurrencyConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageCurrencyConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageCurrencyConversionReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageCurrencyConversionReview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageCurrencyConversionSuccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageCurrencyConversionSuccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageManageRecipient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageManageRecipient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageOTP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageOTP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageSignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageSignUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageVerificationLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageVerificationLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageVirtualCardRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageVirtualCardRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageVirtualCardRegistrationReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageVirtualCardRegistrationReview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageVirtualCardRegistrationSuccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageVirtualCardRegistrationSuccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PageWelcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PageWelcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/projectconstants/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/projectconstants/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/GetgoTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/GetgoTestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/settings/ProjectSettings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/settings/ProjectSettings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/settings/RunCount.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/settings/RunCount.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_CardTransfer_Peso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_CardTransfer_Peso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_CurrencyConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_CurrencyConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_Login_NewCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_Login_NewCustomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_ManageRecipient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_ManageRecipient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_PageValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_PageValidation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_VirtualCardRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Getgo_VirtualCardRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/StepsBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/StepsBase.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Cucumber_Java$Dummy.ic" NAME="Dummy Coverage Results" MODIFIED="1536146693476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>runners.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.50300604">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="GetgoTestRunner.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/runners/GetgoTestRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PageSignUp.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageSignUp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="25" selection-start-line="25" selection-end-line="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Getgo_VirtualCardRegistration.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PageWelcome.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="169">
+                  <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DriverManagerFactory.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManagerFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IOSManager.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/driver/IOSManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Getgo_CardRegistration_Virtual.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/features/Getgo_CardRegistration_Virtual.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OutlookValidation.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages/OutlookValidation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="87">
+                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Data-Input.properties" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/data/Data-Input.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-323">
+                  <caret line="32" column="54" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Locators-iOS.properties" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/object-repository/Locators-iOS.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="175">
+                  <caret line="275" column="66" selection-start-line="275" selection-start-column="41" selection-end-line="275" selection-end-column="66" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProjectSettings.properties" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/settings/ProjectSettings.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageMore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageLogout.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Getgo_Logout.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageExistingUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_Login_ExistingCustomer.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Getgo_Login_ExistingCustomer.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/base/Keywords.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Getgo_ProductFeature.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ProductFeature.java" />
+        <option value="$PROJECT_DIR$/src/test/research/testCase1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/Trash.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageFAQ.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Getgo_TransactionHistory_Activities.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TransactionHistory_Activities.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageCardTransferReview.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageCardTransferSuccess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helper/Tools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actions/Verify.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageManageRecipient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xpath/Matching.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageActivities.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageTermsandConditions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionSuccess.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Getgo_CurrencyConversion.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/projectconstants/MenuItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actions/Swipe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageCardTransfer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionReview.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/object-repository/Locators-Android.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/Dummy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageVerificationLink.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/data/Data-Input.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Getgo_ForgotPassword.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/actions/Type.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageForgottenPassword.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actions/Keyboard.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/settings/ProjectSettings.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/GetgoTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageWelcome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driver/IOSManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/object-repository/Locators-iOS.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/OutlookValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="integration-tests" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="research" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="object-repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="console&#9;PSI&#9;JAVA://java.io.Console" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stepdefinitions" />
+      <recent name="pages" />
+      <recent name="runners" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GetgoTestRunner">
+    <configuration name="OutlookValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.OutlookValidation" />
+      <module name="Cucumber-Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Trash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.Trash" />
+      <module name="Cucumber-Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Scenario: As a tester, I want to be able to login using my credentials so that I may be able to see my virtual card details." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Getgo_Login_ExistingCustomer.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Cucumber-Java" />
+      <option name="NAME_FILTER" value="^As a tester\, I want to be able to login using my credentials so that I may be able to see my virtual card details\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a tester\, I want to be able to login using my credentials so that I may be able to see my virtual card details\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a tester, I want to be able to login using my credentials so that I may be able to see my virtual card details." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Dummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Dummy" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GetgoTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.GetgoTestRunner" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Dummy" />
+      <item itemvalue="JUnit.GetgoTestRunner" />
+      <item itemvalue="Application.OutlookValidation" />
+      <item itemvalue="Cucumber java.Scenario: As a tester, I want to be able to login using my credentials so that I may be able to see my virtual card details." />
+      <item itemvalue="Application.Trash" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetgoTestRunner" />
+        <item itemvalue="Application.OutlookValidation" />
+        <item itemvalue="JUnit.Dummy" />
+        <item itemvalue="Application.Trash" />
+        <item itemvalue="Cucumber java.Scenario: As a tester, I want to be able to login using my credentials so that I may be able to see my virtual card details." />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb0dd9b6-106b-4a0d-972a-2d6bb063e3bb" name="Default" comment="" />
+      <created>1533100044991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533100044991</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 14h 24m 01s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 14h 33m 27s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 14h 55m 01s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 15h 59m 27s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 16h 04m 14s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 16h 07m 18s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 16h 09m 07s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 16h 15m 26s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 16h 17m 37s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetgoTestRunner - 2018.09.14 at 16h 19m 48s.xml">
+      <configuration name="GetgoTestRunner" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="977" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32954547" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3659091" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="5" side_tool="true" visible="true" weight="0.2203125" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.50113636" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageOTP.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageOTP.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageChangePassword.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_Login_NewCustomer.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>337</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>404</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/actions/Click.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>407</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>445</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>443</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>444</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>446</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>447</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>442</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ChangePIN.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_PageValidation.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageManageRecipient.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversion.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>416</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>394</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>376</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>299</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>345</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_EditProfile.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageEditProfile.java</url>
+          <line>401</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageTermsandConditions.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_FAQ.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_FAQ.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistrationReview.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageTermsandConditions.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageTermsandConditions.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageTermsandConditions.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TermsandConditions.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_Logout.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_Login_ExistingCustomer.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_Login_ExistingCustomer.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageExistingUser.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>262</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>247</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>278</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>210</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>215</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TransactionHistory_Activities.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TransactionHistory_Activities.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TransactionHistory_Activities.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_TransactionHistory_Activities.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java</url>
+          <line>252</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageCardTransfer.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>185</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>196</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helper/Tools.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageActivities.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ManageRecipient.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CardTransfer_Peso.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionReview.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionReview.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageVerificationLink.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageLogin.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/OutlookValidation.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/OutlookValidation.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/driver/IOSManager.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="264" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4056#4057#0" expanded="true" />
+            <element signature="e#4089#4090#0" expanded="true" />
+            <element signature="e#4153#4154#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_CurrencyConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageCurrencyConversionReview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Dummy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Getgo_Login_NewCustomer.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Getgo_PageValidation.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="35" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="661" column="7" selection-start-line="661" selection-start-column="7" selection-end-line="661" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actions/Verify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Getgo_ChangePIN.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#3221#3222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageAccountDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageOTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageVerificationLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/settings/RunCount.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/object-repository/Locators-Android.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="444" lean-forward="true" selection-start-line="430" selection-end-line="444" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Getgo_TransactionHistory_Activities.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="2" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0-sources.jar!/io/appium/java_client/FindsByAccessibilityId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+          <folding>
+            <element signature="e#2342#2343#0" expanded="true" />
+            <element signature="e#2418#2419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/StepDefinitionMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actions/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actions/Click.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actions/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Getgo_ForgotPassword.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0-sources.jar!/io/appium/java_client/AppiumDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0-sources.jar!/io/appium/java_client/ios/IOSDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0-sources.jar!/io/appium/java_client/remote/AppiumCommandExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_ForgotPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actions/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageForgottenPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#2952#2953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_PageValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/Keywords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/helper/PropertyReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/DriverManagerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver/IOSManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageSignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/OutlookValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/settings/ProjectSettings.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Getgo_CardRegistration_Virtual.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/object-repository/Locators-iOS.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="275" column="66" selection-start-line="275" selection-start-column="41" selection-end-line="275" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageVirtualCardRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
+          <folding>
+            <element signature="e#4691#4692#0" expanded="true" />
+            <element signature="e#4717#4718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/Getgo_VirtualCardRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PageWelcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data/Data-Input.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/GetgoTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

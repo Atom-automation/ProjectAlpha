@@ -1,0 +1,6 @@
+2018-09-11 08:53:43,879  INFO [main] StepsBase:16 - Executing S C E N A R I O : As a tester, I want to reset the password details through forgot password functionality so that I can login into the account successfully while I am not remembering my password
+2018-09-11 08:53:45,399  INFO [main] RunManager:23 - Hey! ubp, Logging everything from here ....
+2018-09-11 08:53:45,399  INFO [main] RunManager:24 - Run ID is --> Run-732
+2018-09-11 08:53:45,656 ERROR [main] PropertyReader:42 - exceptions.EnvironmentException: Property [Device.null.OS] value is null in file ProjectSettings.properties
+2018-09-11 08:53:45,755 ERROR [main] StepsBase:23 - S C E N A R I O    F A I L E D !!!!!
+2018-09-11 08:53:45,756  INFO [main] Keywords:51 - Application closed
